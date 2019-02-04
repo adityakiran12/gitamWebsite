@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>REGISTRATION</title>
+    <link rel="shortcut icon" href="css/images/logo.ico"/>
+	<head>
+        <link rel="stylesheet" href="css/registration.css">
+        <script src="js/registration.js"></script>
+
+</head>
+</head>
+<body>
+    
+    <div class="bgimg-1">
+        <a href="home.htm" target="_blank"><img src="css/images/logo.png" width="300" height="100"></a>
+	    <div class="caption">
+		    <a href="#reg"><span class="border">STUDENT REGISTRATION</span></a><br>
+		    
+	    </div>
+    </div>
+    <br>
+	<fieldset id="reg"  align="center" style="width: 30%;margin: 0px auto;border-radius: 20px">
+<legend align="center"><b>Fill the form completely</b></legend>
+    <table align="center" cellpadding='0' cellspacing='0' border='0'>
+        <form name="myform" onsubmit="return validateform()" method="post">
+        <br>
+			
+		<tr>	
+		<td><label><b>FIRST NAME&emsp;</b></label></td>
+        <td><input type="text"  name="uname" required="uname"><br><br></td>
+        </tr>
+			
+		<tr>
+        <td><label ><b>LAST NAME&emsp;</b></label></td>
+    	<td><input type="text"  name="uname" required="uname"><br><br></td>
+        </tr>
+			
+		<tr>	
+        <td><label ><b>GENDER&emsp;</b></label></td>
+        <td><input type="radio" name="gender" value="male"> Male&emsp;
+        <input type="radio" name="gender" value="female"> Female</td>
+        </tr>
+			
+		<tr>	
+        <td><label ><b>DATE OF BIRTH&emsp;</b></label></td>
+        <td><input type="date" value="1998-06-12"><br><br></td>
+        </tr>
+			
+			
+		<tr>	
+        <td><label ><b>EMAIL&emsp;</b></label></td>
+        <td><input type="text" name="mail" required="mail"><br><br></td>
+        </tr>
+			
+		<tr>	
+        <td><label ><b>PHONE NUMBER&emsp;</b></label></td>
+        <td><input type="number" name="num"><span id="numloc"></span><br></td>
+        </tr>
+			
+		<tr>	
+        <td><label ><b>ADDRESS&emsp;</b></label></td>
+        <td><textarea rows='2' columns='30'></textarea></td>
+		</tr>
+			
+			
+        </form>
+        </table>
+		<button type="submit" class="button">Register</button>
+		
+	</fieldset>
+    <br>
+</body>
+</html>

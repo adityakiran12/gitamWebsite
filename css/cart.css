@@ -1,0 +1,272 @@
+html{
+	scroll-behavior:smooth;
+}
+a{
+	text-decoration: none;
+}
+body{
+	padding: 0;
+	margin:0;
+}
+.bgimg-1{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(images/bg23.jpg);
+    background-attachment: fixed;
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  text-decoration:none; 
+  color: #000;
+   background-attachment: fixed;
+}
+
+.caption span.border {
+  background-color: black;
+  text-decoration:none;
+  color: dodgerblue;
+  padding: 16px;
+  font-size: 25px;
+  background-attachment: fixed;
+  letter-spacing: 10px;
+} 
+nav
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+/*    padding:12px 100px;*/
+    box-sizing: border-box;
+
+}
+
+nav .logo
+{
+     float: left;
+    width: 300px;
+    height: 100px;
+    
+}
+
+nav ul
+{
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+	text-shadow: 1px 0.5px 2px black;
+    display: flex;
+}
+nav ul li
+{
+    list-style: none;
+    
+}
+nav ul li a
+{
+	line-height: 90px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+	border-radius: 20px;
+    transition: 0.6s ease;
+}
+nav ul li a:hover{
+	border-radius: 20px;
+	text-decoration-line:none;
+	background-color: black;
+	color: white;
+            }
+
+.content
+{
+          margin-top:80px;
+  
+    
+            }
+body {
+  font-family: Arial;
+  font-size: 17px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+  flex-wrap: wrap;
+  margin: 0 ;
+}
+
+.col-25 {
+    flex: 25%;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-75 {
+  
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color:white;
+  padding: 5px 20px 10px 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+    color:rebeccapurple;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+            input[type=password] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+                font-size: 18px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+    color:brown;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color:dodgerblue;
+  color:black;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 500px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color:rgb(255,255,255,0.5);
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: Trebuchet MS;
+    scroll-behavior: smooth
+}
+
+header{
+    
+    background-image:url(images/bg23.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-right: 12px;
+    font-weight: 200;
+    text-shadow: 1px 0.5px 2px black;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+	border-radius: 20px;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+}
+.logo img{
+    
+    float: left;
+    width: 300px;
+    height: 100px; 
+}
+.top{
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+}
+.title h1{
+    color: white;
+    font-size: 70px;   
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+}
